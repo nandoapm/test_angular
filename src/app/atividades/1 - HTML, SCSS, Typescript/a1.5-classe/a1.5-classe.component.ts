@@ -16,16 +16,16 @@ export class A15ClasseComponent implements OnInit {
 
   ngOnInit(): void {
     this._book = new Book(
-      'O Senhor dos Anéis',
-      'J.R.R. Tolkien',
-      1954,
-      '978-0-395-19395-7'
+      'Harry Potter e a Pedra Filosofal',
+      'J.K. Rowling',
+      1997,
+      '978-85-325-0725-2'
     );
     this._periodical = new Periodical(
-      'New York Times',
-      'The New York Times Company',
-      1851,
-      '0362-4331'
+      'Revista Brasileira de Ciência da Computação',
+      'Revista Brasileira',
+      2021,
+      '2238-3579'
     );
   }
 }
