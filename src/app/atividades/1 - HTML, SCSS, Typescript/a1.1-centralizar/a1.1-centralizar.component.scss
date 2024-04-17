@@ -1,0 +1,19 @@
+.wrapper {
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+  }
+}
